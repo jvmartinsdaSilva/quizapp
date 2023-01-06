@@ -1,0 +1,24 @@
+.Menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.Menu p{
+    margin-top: 1em;
+}
+
+.Menu p.amount{
+    font-weight: bold;
+    color: var(--AccentColor);
+}
+
+.Menu input{
+    margin-top: 1em;
+}
+
+.Menu button{
+    margin: 1.5em 1em 0;
+    
+}

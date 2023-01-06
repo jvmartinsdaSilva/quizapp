@@ -1,0 +1,32 @@
+.option{
+    margin-top: 1em;
+    padding: .5em 0;
+    font-size: 1.2em;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #d4d5d6;
+    color: var(--AccentColor);
+}
+
+.option:hover{
+    border-color: var(--AccentColor);
+}
+
+.option:active{
+    transform: scale(1.17);
+    transition: .5s;
+}
+
+
+.correct{
+    border-color: var(--AccentColor);
+    font-weight: bold;
+    transform: none !important;
+}
+
+.wrong{
+    border-color: #d4d5d6 !important;
+    opacity: .5;
+    transform: none !important;
+}

@@ -1,0 +1,18 @@
+.endGame{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.endGame h2{
+    margin-top: .5em;
+}
+
+.endGame p{
+    margin-top: 1em;
+}
+
+.endGame button{
+    margin-top: 1.5em;
+}

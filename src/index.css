@@ -1,13 +1,42 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --BgColor1:#6BB7BF;
+  --BgColor2: #37848C;
+  --QuizColor: #F0F0F2;
+  --AccentColor: #023A40;
+}
+
+body{
+  min-height: 100vh;
+  height: auto;
+  background: linear-gradient(90deg , var(--BgColor1), var(--BgColor2));
+}
+
+h1,h2{
+  font-weight: 700;
+  color: var(--AccentColor);
+}
+
+
+button{
+  font-weight: bold;
+  padding: 1em 2em;
+  border-radius: 10px;
+  background: var(--AccentColor);
+  border: 2px solid var(--QuizColor);
+  color: var(--QuizColor);
+  cursor: pointer;
+  transition: .2s;
+}
+
+button:hover{
+  background: var(--QuizColor);
+  color: var(--AccentColor);
+  border-color: var(--AccentColor);
 }
